@@ -6,8 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-requests = "*"
-time = "*"
+requests = "==2.20.1"
+certifi = "==2018.10.15"
+chardet = "==3.0.4"
+idna = "==2.7"
+urllib3 = "==1.24.1"
 
 [requires]
 python_version = "3.7"
