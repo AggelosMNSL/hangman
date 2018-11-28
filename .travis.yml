@@ -4,11 +4,9 @@ matrix:
       dist: xenial
       sudo: true
     - "3.7-dev"  # 3.7 development branch
-    
 # command to install dependencies
-
+install:
+  - sudo pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest
-before_install:
-  - pip install --user -r requirements.txt
+- pytest
