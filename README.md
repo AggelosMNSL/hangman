@@ -1,6 +1,6 @@
 # hangman
 
-![Travis](https://travis-ci.com/name-placeholder/hangman.png)
+![https://travis-ci.com/name-placeholder/hangman](https://travis-ci.com/name-placeholder/hangman.png)
 
 A simple hangman game functioning as hands-on introduction to Python
 
