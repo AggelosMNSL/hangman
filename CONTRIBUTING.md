@@ -34,9 +34,7 @@ This project and everyone participating in it is governed by the [hangman Code o
 
 > **Note:** [Please don't file an issue to ask a question.] TODO You'll get faster results by using the resources below.
 
-We have an official message board with a detailed FAQ and where the community chimes in with helpful advice if you have questions.
-
-* [Discuss, the official hangman message board] TODO
+We have an official detailed FAQ.
 * [hangman FAQ] TODO
 
 If chat is more your speed, you can join the hangman Slack team:
@@ -44,16 +42,8 @@ If chat is more your speed, you can join the hangman Slack team:
 * [Join the hangman Team](https://TODO)
     * Even though Slack is a chat service, sometimes it takes several hours for community members to respond &mdash; please be patient!
     * Use the `#` channel for general questions or discussion about hangman
-    * Use the `#` channel for questions about Electron
-    * Use the `#` channel for questions or discussion about writing or contributing to hangman packages (both core and community)
-    * Use the `#` channel for questions and discussion about hangman UI and themes
-    * There are many other channels available, check the channel list
 
 ## What should I know before I get started?
-
-### hangman and Packages
-
-hangman is an open source project that serves as a hands-on introduction to the magic world of Python! When you initially consider contributing to hangman, you might be unsure about which of those 200 repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
 #### Package Conventions TODO
 
@@ -138,23 +128,6 @@ While the prerequisites above must be satisfied prior to having your pull reques
 * Limit the first line to 72 characters or less
 * Reference issues and pull requests liberally after the first line
 * When only changing documentation, include `[ci skip]` in the commit title
-* Consider starting the commit message with an applicable emoji:
-    * :art: `:art:` when improving the format/structure of the code
-    * :racehorse: `:racehorse:` when improving performance
-    * :non-potable_water: `:non-potable_water:` when plugging memory leaks
-    * :memo: `:memo:` when writing docs
-    * :penguin: `:penguin:` when fixing something on Linux
-    * :apple: `:apple:` when fixing something on macOS
-    * :checkered_flag: `:checkered_flag:` when fixing something on Windows
-    * :bug: `:bug:` when fixing a bug
-    * :fire: `:fire:` when removing code or files
-    * :green_heart: `:green_heart:` when fixing the CI build
-    * :white_check_mark: `:white_check_mark:` when adding tests
-    * :lock: `:lock:` when dealing with security
-    * :arrow_up: `:arrow_up:` when upgrading dependencies
-    * :arrow_down: `:arrow_down:` when downgrading dependencies
-    * :shirt: `:shirt:` when removing linter warnings
-
 ### Documentation Styleguide TODO
 
 * Use [Markdown](https://daringfireball.net/projects/markdown)
@@ -163,8 +136,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ### Issue and Pull Request Labels TODO
 
-This section lists the labels we use to help us track and manage issues and pull requests. Most labels are used across all Atom repositories, but some are specific to `atom/atom`.
-
+This section lists the labels we use to help us track and manage issues and pull requests. 
 [GitHub search](https://help.github.com/articles/searching-issues/) makes it easy to use labels for finding groups of issues or pull requests you're interested in. For example, you might be interested in [open issues across `atom/atom` and all Atom-owned packages which are labeled as bugs, but still need to be reliably reproduced](https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Abug+label%3Aneeds-reproduction) or perhaps [open pull requests in `atom/atom` which haven't been reviewed yet](https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+repo%3Aatom%2Fatom+comments%3A0). To help you find issues and pull requests, each label is listed with search links for finding open items with that label in `atom/atom` only and also across all Atom repositories. We  encourage you to read about [other search filters](https://help.github.com/articles/searching-issues/) which will help you write more focused queries.
 
 The labels are loosely grouped by their purpose, but it's not required that every issue have a label from every group or that an issue can't have more than one label from the same group.
