@@ -2,17 +2,20 @@
 import hang
 done1 = True
 while done1:
-    s = 2
+    s = 1
     m = 0
     done2 = True
-    word = 'duck'#word.pick()
-    found = [word[0],word[len(word)-1]]
+    word = 'banana'#word.pick()
+    found = []
     wrong = []
     while done2 :
         for i in range(0,len(word)):                   #print word
             done = True
+            if i == 0:
+                print(word[0],sep='',end='')
+                continue
             for j in range(0,len(found)):
-                if found[j] == word[i]:
+                if (found[j] == word[i]):
                     print(word[i],sep='',end='')
                     done = False
             if done:
@@ -29,7 +32,7 @@ while done1:
             print('You already gave that letter!')
         if (x in word) and (x not in found):
             found.append(x)
-            for i in range(0,len(word)-1):
+            for i in range(0,len(word)):
                 if x == word[i]:
                     s += 1
             print('Found letter:',x)
