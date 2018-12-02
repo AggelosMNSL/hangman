@@ -5,7 +5,7 @@ while done1:
     s = 1
     m = 0
     done2 = True
-    word = 'banana'#word.pick()
+    word = 'ananas'#word.pick()
     found = []
     wrong = []
     while done2 :
@@ -32,7 +32,7 @@ while done1:
             print('You already gave that letter!')
         if (x in word) and (x not in found):
             found.append(x)
-            for i in range(0,len(word)):
+            for i in range(1,len(word)):
                 if x == word[i]:
                     s += 1
             print('Found letter:',x)
