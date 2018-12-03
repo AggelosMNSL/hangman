@@ -1,11 +1,12 @@
-#import word
 import hang
+import random
 done1 = True
+dictionary = open("words.txt").read().splitlines()
 while done1:
     s = 1
     m = 0
     done2 = True
-    word = 'ananas'#word.pick()
+    word = random.choice(dictionary)
     found = []
     wrong = []
     while done2 :
