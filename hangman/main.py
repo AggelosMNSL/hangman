@@ -13,7 +13,7 @@ while done1:
         for i in range(0,len(word)):                   #print word
             done = True
             if i == 0:
-                print(word[0],sep='',end='')
+                print(chr(ord(word[0])-32),sep='',end='')
                 continue
             for j in range(0,len(found)):
                 if (found[j] == word[i]):
@@ -31,7 +31,7 @@ while done1:
             break
         if (x in found) or (x in wrong):
             print('You already gave that letter!')
-        if (x in word) and (x not in found):
+        if (x in word[1:len(word)]) and (x not in found):
             found.append(x)
             for i in range(1,len(word)):
                 if x == word[i]:
